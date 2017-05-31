@@ -1,0 +1,6 @@
+Attributes,Bond A,Bond B,Bond C,Bond D,Bond E,Bond F,Bond G,Bond H
+Maturity,4,8,12,16,20,24,28,32
+Face Value,"$1,000 ","$1,000 ","$1,000 ","$1,000 ","$1,000 ","$1,000 ","$1,000 ","$1,000 "
+Coupon Rate,3%,3%,3%,3%,3%,3%,3%,3%
+Periods,2,2,2,2,2,2,2,2
+YTM,5%,5%,5%,5%,5%,5%,5%,5%
