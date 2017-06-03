@@ -129,3 +129,6 @@ ax2.legend(ncol=2, prop=dict(size=9)).get_frame().set_alpha(0.8)
 ax1.axes.xaxis.set_ticklabels([])
 plt.subplots_adjust(hspace=0.1)
 plt.show()
+
+cvx1.to_csv("convexity.csv")
+plt.savefig("convexity.png")
