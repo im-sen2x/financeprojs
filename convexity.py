@@ -91,7 +91,7 @@ cvx1["Price2"] = cvx1.Price1 + cvx1["delta_price"]
 
 cvx1 = cvx1.reindex_axis(["settlement", "maturity", "yrs", "coupon_rate", "period", "Duration", "Convexity", "ir1", "delta_ir", "ir2", "delta_price(%)", "convexity_adjustment", "Price1", "delta_price", "Price2"], axis=1).copy()
 
-
+cvx1.to_csv("convexity.csv")
 
 
 print(cvx1)
@@ -128,7 +128,9 @@ ax2.legend(ncol=2, prop=dict(size=9)).get_frame().set_alpha(0.8)
 
 ax1.axes.xaxis.set_ticklabels([])
 plt.subplots_adjust(hspace=0.1)
+
+plt.savefig("convexity.png")
 plt.show()
 
-cvx1.to_csv("convexity.csv")
-plt.savefig("convexity.png")
+
+
